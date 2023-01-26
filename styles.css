@@ -9,7 +9,7 @@
     scroll-padding-top: 3rem; 
 }
 :root{
-    --main-color: #929499;
+    --main-color: #6699CC;
     --text-color: #0f172a;
     --other-color: #334155; 
     --second-color: #eb4e4e; 
@@ -78,6 +78,7 @@ header{
     -webkit-text-stroke: 1px #fff; 
     background: url(images/back.png); 
     -webkit-background-clip: text; 
+    background-clip: text;
     background-position: 0 0; 
     animation: back 20s linear infinite; 
 }
@@ -96,17 +97,17 @@ header{
     align-items: center;
 }
 .navlist a{
-    color: var(--text-color); 
+    color: var(--bg-color); 
     font-size: var(--p-font);
     font-weight: 600; 
     margin: 0 30px; 
     transition: all .50s ease;
 }
 .navlist a:hover{
-    color: var(--main-color);
+    color: var(--text-color);
 }
 .navlist a.active{
-    color: var(--main-color);
+    color: var(--bg-color);
 }
 .nav-icon{
     display: flex; 
@@ -155,10 +156,10 @@ section{
     gap: 1.5rem;
 }
 .main-text h5{
-    color: #EE1C47;
-    font-size: 22px;
+    color: #FF0000;
+    font-size: 20px;
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 600;
 }
 .main-text h1{
     color: #000;
