@@ -57,8 +57,21 @@
 	</section>
     <!-- Home Section End -->
 
-
-
+    <!-- Chatbot API Start -->
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "e42bf3e6-bf19-4646-b984-d822c99d28bb", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "4deca427-3ee1-4e2b-89a0-e1ad00f64715", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+    <!-- Chatbot API End -->
 
     <!-- Javascript file -->
 <script src="script.js"></script>
