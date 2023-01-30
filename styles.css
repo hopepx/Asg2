@@ -30,10 +30,17 @@ h2
     position: relative; 
     font-size: 3.69vw; 
     color: #2a2539; 
+}
+
+h5
+{ 
+    position: relative; 
+    font-size: 3.69vw; 
+    color: #2a2539; 
     -webkit-text-stroke: 0vw #0f0f0f; 
     text-transform: uppercase; 
 } 
-h2::before 
+h5::before 
 {
     content: attr(data-text); 
     position: absolute; 
@@ -43,7 +50,7 @@ h2::before
     -webkit-text-stroke: 0vw #f2f2f7; 
     border-right: 2px solid #01fe87; 
     overflow: hidden; 
-    animation: animate 3s linear infinite;
+    animation: animate 2.69s linear infinite;
 }
 @keyframes animate
 { 
@@ -51,9 +58,9 @@ h2::before
     { 
         width: 0; 
     } 
-    70%, 90% 
+    23%, 90% 
     { 
-        width: 100%; 
+        width: 25.69%; 
     } 
 }
 
