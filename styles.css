@@ -65,7 +65,7 @@ h5::before
 }
 
 header{
-    position: fixed; 
+    position: absolute; 
     width: 100%; 
     top: 0; 
     right: 0; 
@@ -73,8 +73,8 @@ header{
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
-    background: transparent; 
-    padding: 30px 14%; transition: all .50s ease; 
+    background: transparent;
+    padding: 20px 14%; transition: all .50s ease; 
 }
 .logo{
     display: flex; 
@@ -102,6 +102,7 @@ header{
 .navlist{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .navlist a{
     color: var(--bg-color); 
