@@ -34,10 +34,13 @@ In this section, I will go over the different kinds of features for my project.
 ### Page 1: [Home Page]
 - (Shop Now) button that will link you to the shop  
 
-### Page 2: [Featured Products]
+### Page 2: [About Us]
+- About ZenHara and our Mission
+
+### Page 3: [Featured Products]
 - Featured clothing Category
 
-### Page 3: [Special Offer]
+### Page 4: [Special Offer]
 - Free Shipping when you spend over $50 with a (Shop Now) button that will link you to the shop
 - Image Slideshow (Javascript)
 
@@ -81,7 +84,9 @@ For any scenarios that have not been automated, test the user stories manually a
 - The content was generated from [ChatGPT](https://chat.openai.com/)
 
 ### Media
-- The photos used in this site were obtained from [Pexels](https://www.pexels.com/)
+- The photos used in this site were obtained from 
+[Pexels](https://www.pexels.com/)
+[FreePik](https://www.freepik.com/)
 
 ### Acknowledgements
 
