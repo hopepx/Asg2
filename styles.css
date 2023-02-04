@@ -64,6 +64,7 @@ h5::before
     } 
 }
 
+/* header */
 header{
     position: absolute; 
     width: 100%; 
@@ -152,6 +153,9 @@ header{
 section{
     padding: 5% 10%;
 }
+/* header */
+
+/* home */
 .home{
     width: 100%;
     height: 100vh;
@@ -200,4 +204,27 @@ section{
 .main-btn i{
     vertical-align: middle;
 }
+/* home */
 
+/* about */
+.about .box-container .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .about .box-container .box p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: var(--gray);
+    text-overflow: none;
+  }
+  /* about */
