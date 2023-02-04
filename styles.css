@@ -213,18 +213,30 @@ section{
     object-fit: cover;
   }
   
-  .about .box-container {
+.about .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
-  }
-  
-  .about .box-container .box p {
+}
+.about .box-container .box p {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 1.5rem;
     letter-spacing: 0.1rem;
     color: var(--gray);
     text-overflow: none;
-  }
+}
   /* about */
+
+  /* loader */
+.loader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    background-color: var(--white);
+}
+  /* loader */

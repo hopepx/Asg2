@@ -1,3 +1,11 @@
+// Preloader
+const loader = document.querySelector(".loader");
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, 2000);
+});
+
 const carousel = new Swiper('.carouselbox', {
 	spaceBetween: 30, 
 	slidesPerView: 'auto', 
