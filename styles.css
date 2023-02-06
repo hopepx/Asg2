@@ -226,15 +226,15 @@ section{
     color: var(--gray);
     text-overflow: none;
 }
-  /* about */
+/* about */
 
 
 
 
 
-  
 
-  /* loader */
+
+/* loader */
 .loader {
     position: fixed;
     width: 100vw;
@@ -245,4 +245,4 @@ section{
     z-index: 999999;
     background-color: var(--white);
 }
-  /* loader */
+/* loader */
