@@ -43,7 +43,7 @@ transition: var(--transition-color);
 .dotgrid .dot-image {
     position: relative;
     margin-bottom: 15px;
-    overflow: hidden;
+    
 }
 .dotgrid .dot-image > a,
 .dotgrid .thumbnail.hover,
