@@ -20,3 +20,11 @@
     --h2-font: 2.6em; 
     --p-font: 1.1rem; 
 }
+h1, h2 { display: inline; }
+
+h2
+{ 
+    position: relative; 
+    font-size: 3.69vw; 
+    color: #2a2539; 
+}
