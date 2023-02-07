@@ -229,6 +229,11 @@ section{
 /* about */
 
 /* reviews */
+.reviews{
+    font-family: pop;
+    text-align: center;
+}
+
 .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -285,6 +290,11 @@ section{
 /* reviews */
 
 /* facility */
+.facilitytext{
+    font-family: pop;
+    text-align: center;
+}
+
 .facility {
   background-color: var(--grey-alt);
   padding: 5rem 0;
