@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
   }, 2000);
 });
 
-
+// Filter Shop Category
 const filterBtns = document.querySelectorAll("[data-filter-btn]");
 const filterBox = document.querySelector("[data-filter]");
 
@@ -22,6 +22,7 @@ const filter = function () {
 
 addEventOnElem(filterBtns, "click", filter);
 
+// Reviews
 
 
 const carousel = new Swiper('.carouselbox', {
