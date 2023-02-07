@@ -228,10 +228,66 @@ section{
 }
 /* about */
 
+/* reviews */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 99;
+    text-align: center;
+}
+.card{
+    padding: 50px 40px;
+    background-color: rgba(255, 255, 255, 0.185);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 35px rgba(51, 51, 51, 0.501);
+    transition: all .4s ease;
+}
+.card:hover{
+    background-color: rgba(255, 255, 255, 0.811);
+    color: #333;
+    transform: scale(1.06);
+}
+.card img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #f39c12;
+}
+.card h3{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #f39c12;
+}
+.card h4{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: .9;
+    margin-top: 2px;
+}
+.card p{
+    font-size: 15px;
+    opacity: .8;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.ratings{
+    margin: 4px 0 16px 0;
+}
+.ratings .uil{
+    font-size: 23px;
+    /* color: #f39c12; */
+}
+/* reviews */
+
 /* facility */
 .facility {
   background-color: var(--grey-alt);
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 
 .facility-contianer {
@@ -311,10 +367,6 @@ section{
   }
 }
 /* facility */
-
-/* reviews */
-
-/* reviews */
 
 /* footer */
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
