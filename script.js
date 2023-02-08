@@ -22,35 +22,25 @@ const filter = function () {
 
 addEventOnElem(filterBtns, "click", filter);
 
-// Reviews
+// Cart
+/*=============== SHOW CART ===============*/
+const cart = document.getElementById('cart'),
+      cartShop = document.getElementById('cart-shop'),
+      cartClose = document.getElementById('cart-close')
 
-
-const carousel = new Swiper('.carouselbox', {
-	spaceBetween: 30, 
-	slidesPerView: 'auto', 
-	centeredSlides: true,
-	
-	// If we need pagination 
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevtEl: '.swiper-button-prev',
-	},
-    breakpoints: {
-	    481: {
-		    slidesPerView: 2,
-		    slidesPerGroup: 1,
-		    centeredSlides: false,
-	},
-	    640: {
-		    slidesPerView: 3,
-		    slidesPerGroup: 3, 
-            centeredSlides: false,
-	},
-	    992: {
-		    slidesPerView: 4,
-		    slidesPerGroup: 4,
-		    centeredSlides: false,
-	}
+/*===== CART SHOW =====*/
+/* Validate if constant exists */
+if(cartShop){
+    cartShop.addEventListener('click', () =>{
+        cart.classList.add('show-cart')
+    })
 }
-});
+
+/*===== CART HIDDEN =====*/
+/* Validate if constant exists */
+if(cartClose){
+    cartClose.addEventListener('click', () =>{
+        cart.classList.remove('show-cart')
+    })
+}
 
