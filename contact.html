@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    
+	<title>ZenHara</title>
+
     <!-- CSS File -->
     <link rel="stylesheet" href="contact.css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Header Section Start -->
+	<!-- Header Section Start -->
 	<header>
 		<a href="#" class="logo">ZenHara</a>
 
@@ -19,7 +30,7 @@
 			<li><a href="index.html">Home</a></li>
 			<li><a href="index.html #about">About</a></li>
 			<li><a href="shop.html">Shop</a></li>
-      <li><a href="#reviews">Reviews</a></li>
+            <li><a href="index.html #reviews">Reviews</a></li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 
@@ -31,50 +42,113 @@
         </div>
     </header>
     <!-- Header Section End -->
-<!-- contact starts -->
-<section id="page-header" class="about-header">
-    
-    <h2>Let's talk</h2>
 
-    <p>Leave a Message, We love to hear from you!</p>
-  
-</section>
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <h1>Let's Talk!</h1>
+        <p>Leave a Message! We would love to hear from you!</p>
+    </section>
+    <!-- Home Section End -->
 
-<section id="contact details" class="section-p1">
-    <div class="details">
-        <span>Get In Touch</span>
-        <h2>Visit or Contact us today!</h2>
-        <h3>Office</h3>
-        <div>
-            <li>
-                <i class="fal fa-map"></i>
-                <p>Ngee Ann Poly Singapore</p>
-            </li>
-            <li>
-                <i class="fal fa-envelope"></i>
-                <p>dylantengg@gmail.com</p>
-            </li>
-            <li>
-                <i class="fal fa-phone-alt"></i>
-                <p>+65 999 </p>
-            </li>
-            <li>
-                <i class="fal fa-clock"></i>
-                <p>Monday to Friday: 10am - 4pm</p>
-                <p>Sat & Sun: 8am - 12pm</p>
-            </li>
+	<!-- Contact Section Start -->
+	<section id="details" class="details">
+		<div class="details">
+            <div>
+                <h2>World Wide Store</h2>
+                <li>
+                    <i class="fas fa-location"></i>
+                    <p>Toronto Store: 123 Warden Avenue, Toronto, ON <br>
+                    Montreal Store: 100 Park Avenue, Montreal, QC <br>
+                    Calgary Store: Chinook Centre, 6455 Macleod Trail <br>
+                    Vancouver Store: 883 Hastings St W, Vancouver, BC</p>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <p><a href="mailto:Zenhara.co@gmail.com">ZenHara@gmail.com</a></p>
+                </li>
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+65 87756969</p>
+                </li>
+                <li>
+                    <i class="fas fa-clock"></i>
+                    <p>Monday - Saturday: 9am to 6pm</p>
+                </li>
+            </div>
+
+            <div class="map">
+                <iframe src="https://my.atlistmaps.com/map/79bc2480-ef93-4cf9-be24-b829b005f051?share=true" allow="geolocation" width="650px" height="500px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- contact ends -->
+    <section id="form" class="form">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We Love to Hear From You</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button>Submit</button>
+        </form>
 
+        <div class="people">
+            <div class="imgbox">
+                <img src="images/Dylan.png" alt="" width="80px" height="80px">
+                <p><span>Dylan Teng</span><br> Senior Marketing Manager <br> +65 91426423 <br>
+                <a href="mailto:dylantengg@gmail.com">dylantengg@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
 
-
-
-
-
-<!-- Javascript file -->
-<script src="script.js"></script>
-</body>
-</html>
+    <!-- Footer Section Start -->
+        <footer class="footer-distributed">
+            <div class="footer-left">
+              <a href="#" class="logo">ZenHara</a>
+    
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    |
+                    <a href="#about">About</a>
+                    |
+                    <a href="shop.html">Shop</a>
+                    |
+                    <a href="#reviews">Reviews</a>
+                    |
+                    <a href="contact.html">Contact</a>
+                </p>
+                <p class="footer-company-name"><strong>ZenHara Clothing E-Commerce Store</strong></p>
+            </div>
+    
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p>401 Richmond St W, B02 Toronto, Ontario M5V 3A8</p>
+                </div>
+    
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+65 87756969</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:Zenhara.co@gmail.com">ZenHara@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    <strong>ZenHara</strong> is a e-commerce clothing brand that specializes in creating comfortable and stylish pieces for everyday wear.
+                </p>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/tan.xuewen02/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/xuewxn/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/melvintanxuewen/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Kuilty"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/c/hopepx/"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    <!-- Footer Section Start -->
