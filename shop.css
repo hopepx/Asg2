@@ -222,9 +222,7 @@ address {
 	font-size: var(--fs-4);
 }
 
-.product-card .card-price .del {
-	color: var(--spanish-gray);
-}
+.product-card .card-price .del { color: var(--spanish-gray); }
 
 .product-list>* {
 	display: none;
