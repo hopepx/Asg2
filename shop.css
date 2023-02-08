@@ -224,6 +224,10 @@ address {
 
 .product-card .card-price .del { color: var(--spanish-gray); }
 
+del {
+    text-decoration: line-through;
+}
+
 .product-list>* {
 	display: none;
 }
