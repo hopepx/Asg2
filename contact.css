@@ -126,10 +126,10 @@ section{
 .home{
     background: linear-gradient(rgba(74, 74, 74, 0.6), rgba(74, 74, 74, 0.6)), url(images/contact.jpg) no-repeat;
     background-size: 100rem;
-    background-position: center;
+    background-position: bottom;
     background-attachment: fixed;
     color: white;
-    height: 100vh;
+    height: 50vh;
 
     display: flex;
     align-items: center;
@@ -178,7 +178,7 @@ section{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
@@ -208,6 +208,15 @@ section{
 }
 
 /* form */
+#form{
+    background-color: #ebf4fc;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 80px;
+    border: 2px solid #e1e1e1;
+}
+
 form {
     width: 65%;
     display: flex;
@@ -217,7 +226,7 @@ form {
 }
 
 form span{
-    font-size: 15px;
+    font-size: 20px;
     padding: 5px 0px;
 }
 
@@ -252,25 +261,16 @@ form button:hover{
     color: #fff;
 }
 
-people .imgbox{
-    position: relative;
-    height: 100px;
-    width: 100px;
-    margin: auto;
-    border: 8px solid #070c0d;
-    border-radius: 50%;
-    overflow: hidden;
+form .people span{
+    font-size: large;
 }
 
-people .imgbox img{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    object-fit: cover;
-    transition: 0.3s ease;
+.people span{
+    font-size: 25px;
+}
+
+.people p, a{
+    font-size: large;
 }
 
 /* footer */
