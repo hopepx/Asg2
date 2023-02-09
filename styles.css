@@ -564,14 +564,5 @@ footer {
 /* footer */
 
 /* loader */
-.loader {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 999999;
-    background-color: var(--white);
-}
+
 /* loader */
