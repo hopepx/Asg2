@@ -71,8 +71,11 @@ In this section, I will go over the different kinds of features for my project.
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Chatbot
-- Point Reward System
+- Filter Navigation Bar for Product Categories (Can't Fix Bug)
+- Better Imprementation of the Game (Extra Features)
+- Promo Code Section (Backend)
+- Check Out Button Which Will Lead to Payment Page (Backend)
+- Sum Up Total of Products Added to Cart (Backend)
 
 ## Technologies Used
 
