@@ -55,7 +55,14 @@ In this section, I will go over the different kinds of features for my project.
 - 24/7 ONLINE SUPPORT
 - Able to spin when you hover over it
 
-### Page 6: [Footer]
+### Page 6: [Contact]
+- Opening Hours
+- All Branch Locations in Canada, Contact Number & Email
+- A Map
+- Contact Us Section
+- Info about the Marketing Leads
+
+### Page 7: [Footer]
 - Navigation bar below
 - Branch Locations, Contact Number & Email
 - About Company (Description)
