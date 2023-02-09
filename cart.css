@@ -96,6 +96,14 @@ a{
    padding:10px 20px;
    border-radius: 20px;
 }
+
+.center .search .form button{
+    border:none;
+    background-color: var(--orange);
+    color: var(--light);
+    padding:10px 20px;
+    border-radius: 20px;
+ }
     /* end form */
 
 .center h2{
