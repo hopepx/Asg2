@@ -49,8 +49,8 @@ checkoutButton.addEventListener("click", function() {
 });
 
 // Get the price and quantity elements
-var priceElement = cartBox.getElementsByClassName("cart-price")[0];
-var quantityElement = cartBox.getElementsByClassName("cart-quantity")[0];
+var priceElement = cartBox.getElementsByClassName("price")[0];
+var quantityElement = cartBox.getElementsByClassName("number")[0];
 
 // Convert the price string to a number
 var price = parseFloat(priceElement.innerText.replace("$", ""));
@@ -69,7 +69,7 @@ document.getElementsByClassName("total-price")[0].innerText = "$" + total;
 
 
 // Add the event listener for the quantity input elements
-var quantityInputs = document.getElementsByClassName("cart-quantity");
+var quantityInputs = document.getElementsByClassName("number");
 for (var i = 0; i < quantityInputs.length; i++) {
 quantityInputs[i].addEventListener("change", updateTotal);
 }
