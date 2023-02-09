@@ -79,6 +79,11 @@ In this section, I will go over the different kinds of features for my project.
 - Product Images & Description
 - Navigation Bar & Cool Logo
 
+### Page 10: [Game]
+- Memory Card Game
+- Added Fortnite Dance Gif as the Cover of the Card
+- Match First pair of cards in order to get Discount Code
+
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
