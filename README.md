@@ -128,14 +128,10 @@ In this section, I will mention all of the languages, frameworks, libraries, and
     - Link to the Website: https://soft-clafoutis-543e31.netlify.app/ (Without a Domain)
 
 ## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Testing out the Game for bugs
+2. Try to sign up for account and login afterwards
+3. User Experience with Website
+4. Testing of Different UI Interface Designs
 
 ## Credits
 
