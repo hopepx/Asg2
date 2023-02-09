@@ -115,6 +115,10 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 - [IBM Cloud Watson Assistant](https://us-south.assistant.watson.cloud.ibm.com/login?redirect=%2F)
     - The project uses **IBM Cloud Watson Assistant** to build an API Chatbot.
 
+- [Netlify](https://app.netlify.com/)
+    - The project uses **Netlify** to deploy the Website.
+    - Link to the Website: https://soft-clafoutis-543e31.netlify.app/ (Without a Domain)
+
 ## Testing
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
