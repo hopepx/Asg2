@@ -17,6 +17,9 @@ As a busy individual, I want to be able to quickly find outfits that are both co
 As a customer, I want to be able to see multiple views of the clothing, including model shots, so that I can get a better understanding of how the clothing looks and fits.
 Additionally, the design process would have also involved creating wireframes, mockups, and diagrams to guide the development of the website, which would have been tested and refined based on user feedback to ensure that the website is as user-friendly and effective as possible.
 
+## Wireframe
+Link to Wireframe:
+
 ## Features
 
 In this section, I will go over the different kinds of features for my project.
@@ -92,6 +95,8 @@ In addition, you may also use this section to discuss plans for additional featu
 - Promo Code Section (Backend)
 - Check Out Button Which Will Lead to Payment Page (Backend)
 - Sum Up Total of Products Added to Cart (Backend)
+- Shop Section Buttons (No HyperLink)
+- Wishlist Page (Adding Products to Wishlist)
 
 ## Technologies Used
 
@@ -108,6 +113,9 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+
+- [RestDB](https://restdb.io/)
+    - The project uses **RestDB** to store information about things like products and user accounts.
     
 - [Figma](https://www.figma.com/)
     - The project uses **Figma** to sketch our wireframe.
