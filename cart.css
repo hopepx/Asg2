@@ -120,13 +120,7 @@ a{
 .item .img img{
     height:70px;
 }
-.item .img{
-    background-color: var(--light);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .item .content .title{
     font-weight: bold;
 }
