@@ -27,23 +27,39 @@ In this section, I will go over the different kinds of features for my project.
 - Shop
 - Reviews
 - Contact
-- Search
+- Game
+- Wishlist
 - User
 - Cart
 
 ### Page 1: [Home Page]
-- (Shop Now) button that will link you to the shop  
+- (Shop Now) button that will link you to the shop section
 
 ### Page 2: [About Us]
 - About ZenHara and our Mission
 
-### Page 3: [Featured Products]
-- Featured clothing Category
+### Page 3: [Shop Products]
+- All clothing with Category
 
-### Page 4: [Special Offer]
-- Free Shipping when you spend over $50 with a (Shop Now) button that will link you to the shop
-- Image Slideshow (Javascript)
+### Page 4: [Our Reviews]
+- 3 cards with compliments from customers
+- 5 stars review
+- Interactive
 
+### Page 5: [Why You Should Choose Us]
+- FREE SHIPPING WORLD WIDE
+- FAST DELIVERY
+- QUALITY ASSURANCE
+- 100% MONEY BACK GUARANTEE
+- MANY PAYMENT GATEWAYS
+- 24/7 ONLINE SUPPORT
+- Able to spin when you hover over it
+
+### Page 6: [Footer]
+- Navigation bar below
+- Branch Locations, Contact Number & Email
+- About Company (Description)
+- Social Media Icons
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
