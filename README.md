@@ -109,7 +109,12 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
     
-    
+- [Figma](https://www.figma.com/)
+    - The project uses **Figma** to sketch our wireframe.
+
+- [IBM Cloud Watson Assistant](https://us-south.assistant.watson.cloud.ibm.com/login?redirect=%2F)
+    - The project uses **IBM Cloud Watson Assistant** to build an API Chatbot.
+
 ## Testing
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
