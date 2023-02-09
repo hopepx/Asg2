@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+<!-- Cart Section Start -->
+<div class="container">
+    <div class="menu">
+        <div class="logo">
+            <a href="index.html"><span>ZenHara</span></a>
+        </div>
+        <ul>
+            <a href="index.html"><li class="active"><i class="fa-solid fa-house-user"></i> Home</li></a>
+            <a href="index.html#about"><li class="active"><i class="fa-solid fa-user-secret"></i> About</li></a>
+            <a href="index.html#shop"><li class="active"><i class="fa-solid fa-bag-shopping"></i> Shop</li></a>
+            <a href="index.html#reviews"><li class="active"><i class="fa-solid fa-star"></i></i> Review</li></a>
+            <a href="contact.html"><li class="active"><i class="fa-solid fa-address-book"></i> Contact</li></a>
+        </ul>
+         <ul>
+            <a href="game.html"><li class="active"><i class='bx bx-coin'></i> Game</li></a>
+            <a href="#"><li class="active"><i class='bx bx-heart'></i> Wishlist</li></a>
+            <a href="login.html"><li class="active"><i class='bx bx-user' ></i> User</li></a>
+            <a href="cart.html"><li class="active"><i class='bx bx-shopping-bag' ></i> Cart</li></a>
+        </ul>
+    </div>
+    <div class="center">
+        <div class="search">
+            <div class="form">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search...">
+                <button>Search</button>
+            </div>
+        </div>
+
+        <h2>PRODUCTS</h2>
+        <div class="list">
+            <div class="item" data-key="1">
+                <div class="img">
+                    <img src="img1.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 1</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(1)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="2">
+                <div class="img">
+                    <img src="img2.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 2</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(2)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="3">
+                <div class="img">
+                    <img src="img3.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 3</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(3)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+            
+            <div class="item" data-key="4">
+                <div class="img">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 4</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+            
+            <div class="item" data-key="5">
+                <div class="img">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 4</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="6">
+                <div class="img">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 4</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="7">
+                <div class="img">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 4</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="8">
+                <div class="img">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 4</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="9">
+                <div class="img">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 4</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="10">
+                <div class="img">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 4</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="11">
+                <div class="img">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 4</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="12">
+                <div class="img">
+                    <img src="img4.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Product name 4</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                         Labore animi voluptatum, odio sed libero ipsa?
+                    </div>
+                    <div class="price">$20.03</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="cart">
+        <div class="name">CART</div>
+        <div class="listCart">
+
+        </div>
+    </div>
+</div>
+<!-- Cart Section End -->
+
+    
+    <!-- Javascript file -->
+    <script src="cart.js"></script>
+</body>
+</html>
