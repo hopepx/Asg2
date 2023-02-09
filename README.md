@@ -22,6 +22,7 @@ Additionally, the design process would have also involved creating wireframes, m
 In this section, I will go over the different kinds of features for my project.
  
 ### Navigation Bar
+- Logo (Animation)
 - Home
 - About
 - Shop
@@ -67,6 +68,16 @@ In this section, I will go over the different kinds of features for my project.
 - Branch Locations, Contact Number & Email
 - About Company (Description)
 - Social Media Icons
+
+### Page 8: [Login & Sign Up]
+- Slide Animation 
+- Able to Sign Up and Login
+- RestDB
+
+### Page 9: [Cart]
+- Able to Add, Remove Products
+- Product Images & Description
+- Navigation Bar & Cool Logo
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
