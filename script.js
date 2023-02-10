@@ -1,5 +1,10 @@
-// Preloader
-
+// Lottie Preloader
+const loader = document.querySelector(".loader");
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, 2000);
+});
 
 // Filter Shop Category
 const filterBtns = document.querySelectorAll("[data-filter-btn]");
