@@ -208,8 +208,8 @@ section{
 
 /* about */
 .about .box-container .box img {
-    width: 105%;
-    height: 105%;
+    width: 120%;
+    height: 95%;
     object-fit: cover;
   }
   
