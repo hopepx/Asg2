@@ -46,7 +46,7 @@ h5::before
     position: absolute; 
     top: 0; Left: 0; 
     width: 0; height: 100%; 
-    color: #01fe87; 
+    color: #FFD700; 
     -webkit-text-stroke: 0vw #f2f2f7; 
     border-right: 2px solid #01fe87; 
     overflow: hidden; 
@@ -168,7 +168,7 @@ section{
     gap: 1.5rem;
 }
 .main-text h5{
-    color: #FF0000;
+    color: #EE4B2B;
     font-size: 20px;
     text-transform: capitalize;
     font-weight: 600;
