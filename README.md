@@ -153,6 +153,19 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 - https://www.frankbody.com/int/
 
 ### Photos of Wireframe & The Functions Used to Build the Chatbot API
+![Home Page](https://user-images.githubusercontent.com/61568156/218128903-19d2c066-0172-492a-a0ac-eb6b605db602.png)
+![About Page](https://user-images.githubusercontent.com/61568156/218129023-cf3fe060-733f-493f-b0e1-71340ae5590e.png)
+![Shop Product](https://user-images.githubusercontent.com/61568156/218128987-a224db34-7c1e-4547-ba74-5c82d711fe65.png)
+![Reviews](https://user-images.githubusercontent.com/61568156/218129286-38f0adc2-7e28-4fd3-a053-72a97062c8fa.png)
+![Why You Should Choose Us](https://user-images.githubusercontent.com/61568156/218129012-26df062b-d450-4522-8594-9d7db9075f11.png)
+![Contact](https://user-images.githubusercontent.com/61568156/218129057-6d7aa12f-40c4-48fd-959b-a87bc8244d5d.png)
+![Footer](https://user-images.githubusercontent.com/61568156/218129079-6ce7ac4b-24ba-49ac-a67e-213fd153c8b3.png)
+![Game](https://user-images.githubusercontent.com/61568156/218128889-1a1a250a-dff5-484b-909e-fbf251d75784.png)
+![Sign Up Page](https://user-images.githubusercontent.com/61568156/218128996-da050a81-abde-41ab-9c65-6530a830114b.png)
+![Login Page](https://user-images.githubusercontent.com/61568156/218128913-9726d545-b71e-47a3-8267-92192486ae42.png)
+![Cart](https://user-images.githubusercontent.com/61568156/218129038-1e3b5ba1-2d4e-48c5-a89e-576461188bb7.png)
+
 ![chatbotintents](https://user-images.githubusercontent.com/61568156/218105194-d99e5fac-d34d-48a4-a298-ee3130e6c51b.JPG)
 ![chatbotentities](https://user-images.githubusercontent.com/61568156/218105181-4c4ba614-c5f3-42f9-9f9f-d519600c0929.JPG)
 ![chatbotdialog](https://user-images.githubusercontent.com/61568156/218105197-08ea5b45-b307-4659-9007-8756c0e81212.JPG)
+
