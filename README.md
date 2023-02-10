@@ -23,6 +23,8 @@ Link to Wireframe: https://xd.adobe.com/view/68b9f2b1-92a6-42c7-b5e5-925ee6ed926
 ## Video WalkThrough
 Link to Video: https://youtu.be/woX-kW8COHE
 
+## Video Deployment
+Link to Deployment: https://hopepx.github.io/Asg2/
 ## Features
 
 In this section, I will go over the different kinds of features for my project.
