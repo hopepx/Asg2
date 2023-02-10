@@ -20,6 +20,9 @@ Additionally, the design process would have also involved creating wireframes, m
 ## Wireframe
 Link to Wireframe:
 
+## Video WalkThrough
+Link to Video:
+
 ## Features
 
 In this section, I will go over the different kinds of features for my project.
