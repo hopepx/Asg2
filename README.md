@@ -17,39 +17,89 @@ As a busy individual, I want to be able to quickly find outfits that are both co
 As a customer, I want to be able to see multiple views of the clothing, including model shots, so that I can get a better understanding of how the clothing looks and fits.
 Additionally, the design process would have also involved creating wireframes, mockups, and diagrams to guide the development of the website, which would have been tested and refined based on user feedback to ensure that the website is as user-friendly and effective as possible.
 
+## Wireframe
+Link to Wireframe:
+
+## Video WalkThrough
+Link to Video:
+
 ## Features
 
 In this section, I will go over the different kinds of features for my project.
  
 ### Navigation Bar
+- Logo (Animation)
 - Home
 - About
 - Shop
 - Reviews
 - Contact
-- Search
+- Game
+- Wishlist
 - User
 - Cart
 
 ### Page 1: [Home Page]
-- (Shop Now) button that will link you to the shop  
+- (Shop Now) button that will link you to the shop section
 
 ### Page 2: [About Us]
 - About ZenHara and our Mission
 
-### Page 3: [Featured Products]
-- Featured clothing Category
+### Page 3: [Shop Products]
+- All clothing with Category
 
-### Page 4: [Special Offer]
-- Free Shipping when you spend over $50 with a (Shop Now) button that will link you to the shop
-- Image Slideshow (Javascript)
+### Page 4: [Our Reviews]
+- 3 cards with compliments from customers
+- 5 stars review
+- Interactive
 
+### Page 5: [Why You Should Choose Us]
+- FREE SHIPPING WORLD WIDE
+- FAST DELIVERY
+- QUALITY ASSURANCE
+- 100% MONEY BACK GUARANTEE
+- MANY PAYMENT GATEWAYS
+- 24/7 ONLINE SUPPORT
+- Able to spin when you hover over it
+
+### Page 6: [Contact]
+- Opening Hours
+- All Branch Locations in Canada, Contact Number & Email
+- A Map
+- Contact Us Section
+- Info about the Marketing Leads
+
+### Page 7: [Footer]
+- Navigation bar below
+- Branch Locations, Contact Number & Email
+- About Company (Description)
+- Social Media Icons
+
+### Page 8: [Login & Sign Up]
+- Slide Animation 
+- Able to Sign Up and Login
+- RestDB
+
+### Page 9: [Cart]
+- Able to Add, Remove Products
+- Product Images & Description
+- Navigation Bar & Cool Logo
+
+### Page 10: [Game]
+- Memory Card Game
+- Added Fortnite Dance Gif as the Cover of the Card
+- Match First pair of cards in order to get Discount Code
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Chatbot
-- Point Reward System
+- Filter Navigation Bar for Product Categories (Can't Fix Bug)
+- Better Imprementation of the Game (Extra Features)
+- Promo Code Section (Backend)
+- Check Out Button Which Will Lead to Payment Page (Backend)
+- Sum Up Total of Products Added to Cart (Backend)
+- Shop Section Buttons (No HyperLink)
+- Wishlist Page (Adding Products to Wishlist)
 
 ## Technologies Used
 
@@ -66,17 +116,25 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+
+- [RestDB](https://restdb.io/)
+    - The project uses **RestDB** to store information about things like products and user accounts.
     
-    
+- [Figma](https://www.figma.com/)
+    - The project uses **Figma** to sketch our wireframe.
+
+- [IBM Cloud Watson Assistant](https://us-south.assistant.watson.cloud.ibm.com/login?redirect=%2F)
+    - The project uses **IBM Cloud Watson Assistant** to build an API Chatbot.
+
+- [Netlify](https://app.netlify.com/)
+    - The project uses **Netlify** to deploy the Website.
+    - Link to the Website: https://soft-clafoutis-543e31.netlify.app/ (Without a Domain)
+
 ## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Testing out the Game for bugs
+2. Try to sign up for account and login afterwards
+3. User Experience with Website
+4. Testing of Different UI Interface Designs
 
 ## Credits
 
@@ -93,4 +151,21 @@ For any scenarios that have not been automated, test the user stories manually a
 - I received inspiration for this project from:
 - https://metalumbrella.com/
 - https://www.frankbody.com/int/
+
+### Photos of Wireframe & The Functions Used to Build the Chatbot API
+![Home Page](https://user-images.githubusercontent.com/61568156/218128903-19d2c066-0172-492a-a0ac-eb6b605db602.png)
+![About Page](https://user-images.githubusercontent.com/61568156/218129023-cf3fe060-733f-493f-b0e1-71340ae5590e.png)
+![Shop Product](https://user-images.githubusercontent.com/61568156/218128987-a224db34-7c1e-4547-ba74-5c82d711fe65.png)
+![Reviews](https://user-images.githubusercontent.com/61568156/218129286-38f0adc2-7e28-4fd3-a053-72a97062c8fa.png)
+![Why You Should Choose Us](https://user-images.githubusercontent.com/61568156/218129012-26df062b-d450-4522-8594-9d7db9075f11.png)
+![Contact](https://user-images.githubusercontent.com/61568156/218129057-6d7aa12f-40c4-48fd-959b-a87bc8244d5d.png)
+![Footer](https://user-images.githubusercontent.com/61568156/218129079-6ce7ac4b-24ba-49ac-a67e-213fd153c8b3.png)
+![Game](https://user-images.githubusercontent.com/61568156/218128889-1a1a250a-dff5-484b-909e-fbf251d75784.png)
+![Sign Up Page](https://user-images.githubusercontent.com/61568156/218128996-da050a81-abde-41ab-9c65-6530a830114b.png)
+![Login Page](https://user-images.githubusercontent.com/61568156/218128913-9726d545-b71e-47a3-8267-92192486ae42.png)
+![Cart](https://user-images.githubusercontent.com/61568156/218129038-1e3b5ba1-2d4e-48c5-a89e-576461188bb7.png)
+
+![chatbotintents](https://user-images.githubusercontent.com/61568156/218105194-d99e5fac-d34d-48a4-a298-ee3130e6c51b.JPG)
+![chatbotentities](https://user-images.githubusercontent.com/61568156/218105181-4c4ba614-c5f3-42f9-9f9f-d519600c0929.JPG)
+![chatbotdialog](https://user-images.githubusercontent.com/61568156/218105197-08ea5b45-b307-4659-9007-8756c0e81212.JPG)
 

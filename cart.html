@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+<!-- Cart Section Start -->
+<div class="container">
+    <div class="menu">
+        <div class="logo">
+            <a href="index.html"><span>ZenHara</span></a>
+        </div>
+        <ul>
+            <a href="index.html"><li class="active"><i class="fa-solid fa-house-user"></i> Home</li></a>
+            <a href="index.html#about"><li class="active"><i class="fa-solid fa-user-secret"></i> About</li></a>
+            <a href="index.html#shop"><li class="active"><i class="fa-solid fa-bag-shopping"></i> Shop</li></a>
+            <a href="index.html#reviews"><li class="active"><i class="fa-solid fa-star"></i></i> Review</li></a>
+            <a href="contact.html"><li class="active"><i class="fa-solid fa-address-book"></i> Contact</li></a>
+        </ul>
+         <ul>
+            <a href="game.html"><li class="active"><i class='bx bx-coin'></i> Game</li></a>
+            <a href="#"><li class="active"><i class='bx bx-heart'></i> Wishlist</li></a>
+            <a href="login.html"><li class="active"><i class='bx bx-user' ></i> User</li></a>
+            <a href="cart.html"><li class="active"><i class='bx bx-shopping-bag' ></i> Cart</li></a>
+            <a href="game.html"><li class="active"><i class="fa-solid fa-percent"></i>Promo Code</li></a>
+            <input type="text" placeholder="Enter Voucher Code">
+            <div class="center">
+                <div class="search">
+                    <div class="form">
+            <button>Submit</button>
+                </div>
+                    </div>
+        </ul>
+    </div>
+    <div class="center">
+        <div class="search">
+            <div class="form">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search...">
+                <button>Search</button>
+            </div>
+        </div>
+    
+        <h2>PRODUCTS</h2>
+        <div class="list">
+            <div class="item" data-key="1">
+                <div class="img">
+                    <img src="./images/product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Pikachu Jacket</div>
+                    <div class="des">
+                        Stay warm and stylish with this adorable Pikachu jacket. 
+                        Featuring a bold graphic print of everyone's favorite electric mouse, 
+                        this jacket is perfect for fans of the Pokémon franchise. 
+                        Made with high-quality materials, this jacket is both comfortable and durable.
+                    </div>
+                    <div class="price">$90.00</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(1)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="2">
+                <div class="img">
+                    <img src="./images/product-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Death Note Shirt</div>
+                    <div class="des">
+                        Show off your love for the hit anime and manga series with this Death Note shirt. 
+                        Featuring the iconic Death Note logo, this shirt is a must-have for fans of the series. 
+                        Made with a soft and comfortable material, this shirt is perfect for everyday wear.
+                    </div>
+                    <div class="price">$30.00</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(2)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="3">
+                <div class="img">
+                    <img src="./images/product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Devil Jacket</div>
+                    <div class="des">
+                        Make a statement with this bold and edgy devil jacket. Featuring an eye-catching graphic print of a devil, this jacket is perfect for those who want to add a touch of edge to their wardrobe. Made with high-quality materials, this jacket is both warm and stylish.
+                    </div>
+                    <div class="price">$40.00</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(3)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+            
+            <div class="item" data-key="4">
+                <div class="img">
+                    <img src="./images/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Chainsaw Man Shirt</div>
+                    <div class="des">
+                        Show off your love for the hit manga series with this Chainsaw Man shirt. Featuring the iconic Chainsaw Man logo, this shirt is perfect for fans of the series. Made with a soft and comfortable material, this shirt is perfect for everyday wear.
+                    </div>
+                    <div class="price">$17.10</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+            
+            <div class="item" data-key="5">
+                <div class="img">
+                    <img src="./images/product-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">The Future Shirt</div>
+                    <div class="des">
+                        Get ready for the future with this eye-catching shirt. Featuring a futuristic graphic print, this shirt is perfect for those who want to make a statement. Made with a soft and comfortable material, this shirt is perfect for everyday wear.
+                    </div>
+                    <div class="price">$21.00</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="6">
+                <div class="img">
+                    <img src="./images/product-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Zen sweatpants</div>
+                    <div class="des">
+                        Stay comfortable and relaxed with these stylish Zen sweatpants. Featuring a bold graphic print, these sweatpants are perfect for lounging or running errands. Made with high-quality materials, these sweatpants are both comfortable and durable.
+                    </div>
+                    <div class="price">$69.50</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="7">
+                <div class="img">
+                    <img src="./images/product-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Angsty kid Shirt</div>
+                    <div class="des">
+                        Show off your angsty side with this eye-catching shirt. Featuring a bold graphic print, this shirt is perfect for those who want to make a statement. Made with a soft and comfortable material, this shirt is perfect for everyday wear.
+                    </div>
+                    <div class="price">$20.10</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="8">
+                <div class="img">
+                    <img src="./images/product-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Akira Shirt</div>
+                    <div class="des">
+                        Show off your love for the classic anime film with this Akira shirt. Featuring a bold graphic print from the film, this shirt is perfect for fans of the series. Made with a soft and comfortable material, this shirt is perfect for everyday wear.
+                    </div>
+                    <div class="price">$15.00</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="9">
+                <div class="img">
+                    <img src="./images/product-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Zen Cargo Pants</div>
+                    <div class="des">
+                        Stay comfortable and stylish with these Zen cargo pants. Featuring multiple pockets and a bold graphic print, these pants are perfect for everyday wear. Made with high-quality materials, these pants are both comfortable and durable.
+                    </div>
+                    <div class="price">$50.00</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="10">
+                <div class="img">
+                    <img src="./images/product-10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Camo Jacket</div>
+                    <div class="des">
+                        Stay warm and stylish with this eye-catching camo jacket. Featuring a bold camo print, this jacket is perfect for those who want to add a touch of edge to their wardrobe. Made with high-quality materials, this jacket is both warm and stylish.
+                    </div>
+                    <div class="price">$60.00</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="11">
+                <div class="img">
+                    <img src="./images/product-11.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Tiger Bomber Jacket</div>
+                    <div class="des">
+                        Stay warm and stylish with this eye-catching tiger bomber jacket. Featuring a bold graphic print of a tiger, this jacket is perfect for those who want to make a statement. Made with high-quality materials, this jacket is both warm and stylish.
+                    </div>
+                    <div class="price">$96.00</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+            <div class="item" data-key="12">
+                <div class="img">
+                    <img src="./images/product-12.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Nylon black Pants</div>
+                    <div class="des">
+                        Stay stylish and comfortable with these versatile nylon black pants. Featuring a sleek black color and lightweight material, these pants are perfect for everyday wear. Made with high-quality materials, these pants are both comfortable and durable.
+                    </div>
+                    <div class="price">$65.00</div>
+                    <input type="number" class="count" min="1" value="1">
+                    <button class="add">Add to cart</button>
+                    <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="cart">
+        <div class="name">CART</div>
+        <div class="listCart">
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Cart Section End -->
+
+    <!-- Chatbot API Start -->
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "e42bf3e6-bf19-4646-b984-d822c99d28bb", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "4deca427-3ee1-4e2b-89a0-e1ad00f64715", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+    </script>
+    <!-- Chatbot API End -->
+    
+    <!-- Javascript file -->
+    <script src="cart.js"></script>
+</body>
+</html>

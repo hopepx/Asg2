@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="shop.css" />
     
+    <!-- Lottie Animation -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
     <!-- Box Icons -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
@@ -21,7 +24,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<!-- Header Section Start -->
+
+  <!-- Lottie Preloader Section Start -->
+  <div class="loader">
+    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_v92o72md.json"
+      background="transparent" speed="2.169" style="width: 500px; height: 500px;" loop
+      autoplay></lottie-player>
+  </div>
+  <!-- Lottie Preloader Section End -->
+
+
+  <!-- Header Section Start -->
 	<header>
 		<a href="#" class="logo">ZenHara</a>
 
@@ -34,22 +47,14 @@
 		</ul>
 
         <div class="nav-icon">
+            <a href="game.html"><i class='bx bx-coin'></i></a>
             <a href="#"><i class='bx bx-heart'></i></a>
             <a href="login.html"><i class='bx bx-user' ></i></a>
-            <div class="navshop" id="cart-shop">
-              <i class='bx bx-shopping-bag' ></i>
-            </div>
+            <a href="cart.html"><i class='bx bx-shopping-bag' ></i></a>
             <div class="bx_bx-menu" id="menu-icon"></div>
         </div>
   </header>
   <!-- Header Section End -->
-
-  <!-- Cart Section Start -->
-  <div class="cart" id="cart">
-    <i class='bx bx-x cart__close' id="cart-close"></i>
-    <h2 class="cart__title-center">My Cart</h2>
-  </div>
-  <!-- Cart Section End -->
 
 	<!-- Home Section Start -->
 	<section class="home" id="home">
@@ -61,7 +66,7 @@
              
             <h1>This Summer</h1>
 			<p>We offer a wide selection of stylish and comfortable pieces for everyday wear</p>
-            <a href="shop.html" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+            <a href="cart.html" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
         </div>
         </div>
 	</section>
@@ -145,7 +150,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -202,7 +207,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -247,7 +252,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -290,7 +295,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -333,7 +338,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -376,7 +381,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -419,7 +424,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -462,7 +467,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -505,7 +510,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -548,7 +553,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -591,7 +596,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -634,7 +639,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -677,7 +682,7 @@
                   </li>
 
                   <li>
-                    <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                    <button class="card-action-btn" aria-label="add to cart" title="go to cart">
                       <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
                     </button>
                   </li>
@@ -823,7 +828,7 @@
                     |
                     <a href="#about">About</a>
                     |
-                    <a href="shop">Shop</a>
+                    <a href="#shop">Shop</a>
                     |
                     <a href="#reviews">Reviews</a>
                     |
@@ -880,14 +885,11 @@
     <!-- Chatbot API End -->
 
     <!-- Preloader Start -->
-    <div class="loader">
-        <img src="./images/dance.gif" alt="" />
-    </div>
+    
     <!-- Preloader End -->
     
     <!-- Javascript file -->
     <script src="script.js"></script>
-    <script src="swiper-bundle.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

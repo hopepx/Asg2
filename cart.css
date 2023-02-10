@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root{
+    --white: #fff;
+    --light: #eeeded;
+    --orange: #FFA16C;
+}
+body {
+    overflow-y: scroll; /* Adds a vertical scrollbar */
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    width:1200px;
+    border:1px solid var(--white);
+    max-width: 100%;
+    margin:50px auto 0;
+    display: grid;
+    grid-template-columns: 200px auto 300px;
+    padding:20px;
+    border-radius: 30px;
+    min-height: 80vh;
+}
+.container .menu{
+    background-color: var(--white);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.container .cart{
+    background-color: var(--white);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.container .center{
+    background-color: var(--light);
+    border-left: 1px solid var(--light);
+    border-right: 1px solid var(--light);
+}
+
+/* menu */
+.menu .logo{
+    padding:20px;
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    height:40px;
+}
+.menu .logo span{
+    color: var(--orange);
+}
+.menu ul{
+    padding:20px 0 20px 20px;
+    list-style: none;
+    border-bottom: 1px solid var(--light);
+}
+.menu ul li{
+    padding:10px 0;
+}
+.menu ul li i{
+    margin-right: 12px;
+}
+.menu ul li.active{
+    color: var(--orange);
+    border-right: 2px solid var(--orange);
+}
+.menu ul li:hover{
+    color: var(--orange);
+    border-right: 2px solid var(--orange);
+}
+/* end menu */
+/* center */
+    /* form */
+.center .search{
+    background-color: var(--white);
+    padding:20px;
+    height:40px;
+}
+.center .search .form{
+    width:max-content;
+    border:1px solid var(--light);
+    border-radius: 20px;
+    padding-left:15px;
+    color:var(--light);
+}
+.center .search .form input{
+    border:none;
+    padding:0 10px;
+    outline: none;
+    width:100px;
+}
+.center .search .form button{
+   border:none;
+   background-color: var(--orange);
+   color: var(--light);
+   padding:10px 20px;
+   border-radius: 20px;
+}
+
+.center .search .form button{
+    border:none;
+    background-color: var(--orange);
+    color: var(--light);
+    padding:10px 20px;
+    border-radius: 20px;
+ }
+    /* end form */
+
+.center h2{
+    padding:20px;
+}
+.center .list{
+    padding:0 20px 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.item{
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 20% auto;
+    padding:10px;
+    column-gap: 20px;
+    border-radius: 20px;
+}
+.item .img img{
+    height:70px;
+}
+
+.item .content .title{
+    font-weight: bold;
+}
+.item .content .des{
+    font-size: small;
+    opacity: 0.7;
+    margin-top:5px;
+}
+.item .content .price{
+    color:var(--orange);
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: small;
+    margin-top:5px;
+}
+.item .count{
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding:3px 5px;
+    border:1px solid var(--light);
+    outline: none;
+     margin-top:5px;
+}
+.item .content .add{
+    margin-top:5px;
+    background-color: var(--orange);
+    color:var(--white);
+    padding:5px 10px;
+    border:none;
+    border-radius: 10px;
+}
+.item .content .remove{
+    padding:5px;
+    border:none;
+    margin-top:5px;
+    border-radius: 10px;
+    display: none;
+}
+
+/* end center */
+.cart .item{
+    transition: 0.5s;
+    border-bottom: 1px solid var(--light);
+}
+.cart .name{
+    padding:20px;
+    height:40px;
+    font-weight: bold;
+    font-size: xx-large;
+    border-bottom:1px solid var(--light)
+}
+.danger{
+    box-shadow: 0 10px 10px var(--orange);
+    transform: translate(0,-10px);
+}
+.cart .add{
+    display: none;
+}
+.cart .remove{
+    display: inline-block!important;
+}
+
+.checkout-button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.total{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1.5rem;
+	border-top: 1px solid var(--text-color);
+}
+
+.total-title{
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+.total-price{
+	margin-left: 0.5rem;
+}
+
+
+.btn-buy{
+	display: flex;
+	margin: 1.5rem auto 0 auto;
+	padding: 12px 20px;
+	border: none;
+	background: var(--main-color);
+	color: var(--bg-color);
+	font-size: 1rem;
+	font-weight: 500;
+	cursor: pointer;
+}
+
