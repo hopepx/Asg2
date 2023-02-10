@@ -18,10 +18,10 @@ As a customer, I want to be able to see multiple views of the clothing, includin
 Additionally, the design process would have also involved creating wireframes, mockups, and diagrams to guide the development of the website, which would have been tested and refined based on user feedback to ensure that the website is as user-friendly and effective as possible.
 
 ## Wireframe
-Link to Wireframe:
+Link to Wireframe: https://xd.adobe.com/view/68b9f2b1-92a6-42c7-b5e5-925ee6ed9262-3dea/
 
 ## Video WalkThrough
-Link to Video:
+Link to Video: https://youtu.be/woX-kW8COHE
 
 ## Features
 
