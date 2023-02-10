@@ -149,3 +149,7 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 - https://metalumbrella.com/
 - https://www.frankbody.com/int/
 
+### Photos of Our Wireframe & Chatbot API
+![chatbotintents](https://user-images.githubusercontent.com/61568156/218105194-d99e5fac-d34d-48a4-a298-ee3130e6c51b.JPG)
+![chatbotentities](https://user-images.githubusercontent.com/61568156/218105181-4c4ba614-c5f3-42f9-9f9f-d519600c0929.JPG)
+![chatbotdialog](https://user-images.githubusercontent.com/61568156/218105197-08ea5b45-b307-4659-9007-8756c0e81212.JPG)
